@@ -13,7 +13,7 @@ start_time = date(date.now().year, date.now().month,
 end_time = date(date.now().year, date.now().month,
                 date.now().day, work_end_h)
 if services.hourCheck(start_time, end_time):
-    redirect = services.initial_setup()
+    redirect = services.initialSetup()
 
 block_url = [
     "www.twitter.com", "twitter.com",

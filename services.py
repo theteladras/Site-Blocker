@@ -1,7 +1,7 @@
 from datetime import datetime as date
 
 
-def initial_setup():
+def initialSetup():
     input_not_in_order = True
     while input_not_in_order:
         print("Odaberite nacin redirekcije: \n")
